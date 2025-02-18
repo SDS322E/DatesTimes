@@ -1,5 +1,16 @@
 ## Dates and Times
 
+## Underlying representations as integers
+
+Sys.Date()
+
+Sys.Date() |>
+    as.integer()
+
+Sys.time()
+
+Sys.time() |>
+    as.integer()
 
 ################################################################################
 ## Austin 311 data from https://data.austintexas.gov
